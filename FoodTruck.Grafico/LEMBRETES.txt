@@ -1,0 +1,19 @@
+﻿comboBox1.DisplayMember = "Name";
+comboBox1.ValueMember = "Name";
+
+dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.MultiSelect = false;
+            dataGridView1.AutoGenerateColumns = false;
+            dataGridView1.ColumnCount = 4;
+            dataGridView1.ColumnHeadersVisible = true;
+            dataGridView1.Columns[0].Name = "Id";
+            dataGridView1.Columns[0].DataPropertyName = "Id";
+            dataGridView1.Columns[1].Name = "Nome do evento";
+            dataGridView1.Columns[1].DataPropertyName = "Nome";
+            dataGridView1.Columns[2].Name = "Descrição";
+            dataGridView1.Columns[2].DataPropertyName = "Descricao";
+            dataGridView1.Columns[3].Name = "Número de vagas";
+            dataGridView1.Columns[3].DataPropertyName = "NumVagas";
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+        
